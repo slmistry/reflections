@@ -6,6 +6,10 @@ Git makes the base .git folder and starts tracking all files in the folder.
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+The staging area holds untracked files.
+It is a useful place to try out new changes without committing them.
+
+
 How can you use the staging area to make sure you have one commit per logical
 change?
 
