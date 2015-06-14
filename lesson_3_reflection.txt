@@ -7,24 +7,38 @@ Mainly for safe back up and also to release files to community
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+You do not want the auto feature disrupting your work when you are part way
+through fixing a bug or adding a new feature.
+
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+A fork can only be made on GitHub to copy someone else's repository into your account.
+This is usually done when you don't have permission to change the original. Cloning
+allows you to copy repositories locally and make changes there. Branches allow you
+to make changes off the main line in a safe way with the option to merge back in again
+only when you are happy with the changes.
+
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+You have a last known state and can collaborate with others, then later resolve 
+conflicts as they occur.
+
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+You would need a database somewhere of who is working on what and only allow one 
+person to work in a given file at one time. This would be very time consuming
+and result in tying people up in the merge process rather than working on the code.
+
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+Branching allow you to experiment with code changes without breaking the master.
+It also means you can collaborate with other then pick only those changes you want
+on the master.
